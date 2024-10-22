@@ -1,5 +1,50 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-cwcwidth (0.1.8-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 0.1.8
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 30 Oct 2022 21:03:52 +0100
+
+python-cwcwidth (0.1.7-1) unstable; urgency=medium
+
+  * New upstream version 0.1.7
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 22 Aug 2022 22:47:32 +0200
+
+python-cwcwidth (0.1.6-1) unstable; urgency=medium
+
+  * New upstream version 0.1.6
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 30 Dec 2021 21:37:15 +0100
+
+python-cwcwidth (0.1.5-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sebastian Ramacher ]
+  * New upstream version 0.1.5
+  * debian/control: Bump Standards-Version
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 10 Oct 2021 19:22:35 +0200
+
+python-cwcwidth (0.1.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: Run tests with pytest
+  * debian/rules: Force UTF-8 locale for builds
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 07 Feb 2021 23:51:57 +0100
+
+python-cwcwidth (0.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/tests: Add autopkgtests
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 03 Feb 2021 23:52:57 +0100
+
+python-cwcwidth (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #980874)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 23 Jan 2021 14:46:10 +0000

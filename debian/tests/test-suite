@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+cd tests
+for py in $(py3versions -s)
+do
+  $py -m pytest --import-mode append .
+done

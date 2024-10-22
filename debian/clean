@@ -1,0 +1,2 @@
+*.egg-info/*
+cwcwidth/_impl.c
